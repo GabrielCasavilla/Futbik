@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+    <head>
+
+        <title>Contacto</title>
+        <link rel="shortcut icon" href="images/logo.png">
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <link rel="author" href="humans.txt">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Farro:wght@300;400;500;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Days+One&display=swap" rel="stylesheet">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    </head>
+    <body>
+
+    	<div class="menu">
+            
+            <a href="index.html"><img src="images/logoconcirculito.png" alt="logo"></a>
+            <ul>               
+                <li><a href="index.html">Menu</a></li>
+                <li><a href="noticias.html">Noticias</a></li>
+                <li><a href="contenido.html">Curiosidades</a></li>
+                <li><a href="estadisticas.html">Estadisticas de equipos</a></li>
+                <li><a href="productos.html">Tienda</a></li>
+                <li><a href="top10.html">TOP 10</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+
+        </div>
+
+        
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/bannerprincipal4.png" class="d-block w-100" alt="fondo1">
+              </div>
+              <div class="carousel-item">
+                <img src="https://www.wallpapertip.com/wmimgs/2-27163_4k-football-wallpapers-futbol-wallpaper-hd-4k.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://eskipaper.com/images/football-wallpaper-29.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+
+        <div class="formulario fondoGris" >
+
+    	<form action="recibe.html" method="POST" enctype="multipart/form-data">
+    		<label class="titBlanco">Nombre:</label>
+    		<input type="text" name="Nombre"placeholder="Ingresa tu nombre" value="Pepito">
+
+    		<label class="titBlanco">Apellido:</label>
+    		<input type="text" name="Apellido" placeholder="Ingresa tu apellido">
+
+    		<label class="titBlanco">Email:</label>
+    		<input type="email" name="email" placeholder="Ingresa tu email">
+
+    		<p>Nacionalidad:</p>
+    		<select class="botones">
+    			<option>Argentina</option>
+    			<option>Uruguay</option>
+    			<option>Chile</option>
+    			<option>Otro</option>
+
+    		</select>
+
+    		<p>Motivo:</p>
+    		<label>Ayuda</label>
+    		<input type="checkbox" name="ayd" value="ayd">
+    		<label>Recomendacion</label>
+    		<input type="checkbox" name="rm" value="rm">
+    		<label>Queja</label>
+    		<input type="checkbox" name="qj" value="queja">
+    		<label>Otro</label>
+    		<input type="checkbox" name="otro" value="otro"> 
+
+    		<input type="submit" name="sub_form" value="ENVIAR" class="botones">
+    		<input type="reset" name="resetear" value="Borrar todo" class="botones">
+    	</form>
+        </div>
+        
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
+
