@@ -77,8 +77,8 @@ transition:all 1s ease-in-out;
 
 }
 .menu ul li:hover{
-	background: rgb(0,219,255);
-	background: radial-gradient(circle, rgba(0,219,255,1) 0%, rgba(255,255,255,1) 51%, rgba(215,215,215,1) 100%);
+	background: rgb(76, 97, 100);
+	background: radial-gradient(circle, rgb(73, 101, 105) 0%, rgba(255,255,255,1) 51%, rgba(215,215,215,1) 100%);
 
 
 }
@@ -126,25 +126,13 @@ transition:all 1s ease-in-out;
 body{
 	background-color: #242a2d;
 
+
 }/* PAGINA PRINCIPAL------------------*/
-/*
-.bannerPrincipal{
-
-	background-image: url("../images/bannerprincipal4.png");
-	background-repeat:no-repeat;
-	height:370px; 
-	border-bottom: 25px solid #242a2d;
-	background-position: 50% 85%;
-	background-size: cover;
-	box-sizing:border-box;
-
-
-}
-*/
 
 .carousel-inner{
 	
 	height: 400px;
+	border-bottom: 25px solid #242a2d;
 }
 
 .primeraSeccion{
