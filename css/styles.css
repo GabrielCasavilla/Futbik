@@ -484,7 +484,7 @@ background: radial-gradient(circle, rgba(255,12,12,1) 0%, rgba(255,79,79,1) 51%,
 }
 .barcelona:hover{
 	transform:scale(1.1);
-	background-color: background: rgb(255,12,12);
+	background-color: rgb(255,12,12);
 	background: radial-gradient(circle, rgba(255,12,12,1) 0%, rgba(255,79,79,1) 51%, rgba(186,8,8,1) 100%);
 }
 .barcelona h2{
@@ -651,9 +651,10 @@ font-family: verdana;
 	margin: auto;
     display: block;
     background-color: #efefef;
-    height: 920px;
+    height: 1020px;
     width: 1000px;
     border: 5px solid #0000ff;
+	margin-top: 100px;
 }
 .camisetas{
 
@@ -670,6 +671,7 @@ table{
 	word-spacing: 3;
 	font-size: 28px;
 	font-family: verdana;
+	margin-top: 30px;
 
 }
 .Tabla h1{
@@ -677,4 +679,19 @@ table{
 	font-family: verdana;
 	font-size: 28px;
 	text-align: center;
+	
+}
+
+.productosDes{
+	display:flex;
+	
+}
+.card{
+	margin-left: 10px;
+	margin-bottom: 8px;
+	margin-right: 38px;
+}
+
+.productosDes .card .btn-primary{
+	background-color: #170098;
 }

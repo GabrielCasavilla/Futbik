@@ -1,0 +1,274 @@
+.fondoGris{
+	background: rgb(142,142,142);
+	background: linear-gradient(0deg, rgba(142,142,142,1) 0%, rgba(79,79,79,1) 100%);
+}
+.botones{
+	font-size: 20px;
+	text-align: center;
+	word-spacing: 2;
+	list-style: none;
+	font-family: verdana;
+	display: inline;
+	padding-left: 18px;
+	padding-right: 23px;
+	background: rgb(152,152,152);
+	background: radial-gradient(circle, rgba(152,152,152,1) 0%, rgba(255,255,255,1) 51%, rgba(215,215,215,1) 100%);
+	border: 4px solid black;
+	border-radius: 13px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	text-decoration: none;
+	color: black;
+
+}
+
+.titBlanco{
+	color: white;
+    font-family: 'Days One', sans-serif;
+    text-align: left;
+    line-height: 2;
+    font-size: 28px;
+}
+.tBlanco{
+	color: white;
+    font-family: 'Days One', sans-serif;
+    text-align: left;
+    line-height: 2;
+    font-size: 18px;
+}
+.titNegro{
+	color: black;
+    font-family: 'Days One', sans-serif;
+    text-align: left;
+    line-height: 2;
+    font-size: 28px;
+}
+
+
+/*FIN PALETAS----------------*/
+/*Parte del Menu-----------------*/
+.menu ul li {
+
+color: red;
+font-size: 20px;
+text-align: center;
+word-spacing: 2;
+list-style: none;
+font-family: verdana;
+display: inline;
+padding-left: 18px;
+padding-right: 23px;
+background: rgb(152,152,152);
+background: radial-gradient(circle, rgba(152,152,152,1) 0%, rgba(255,255,255,1) 51%, rgba(215,215,215,1) 100%);
+border: 4px solid black;
+border-radius: 13px;
+padding-top: 4px;
+padding-bottom: 4px;
+transition:all 1s ease-in-out;
+
+
+}
+.menu ul li:hover{
+	background: rgb(0,219,255);
+	background: radial-gradient(circle, rgba(0,219,255,1) 0%, rgba(255,255,255,1) 51%, rgba(215,215,215,1) 100%);
+
+
+}
+
+.menu a{
+	text-decoration: none;
+	line-height: 2.5;
+	color: black;
+	font-family: 'Farro', sans-serif;
+	font-size: 25px;
+}
+
+.menu{
+
+	position: center;
+	height: 60px;
+	background-image: url("../images/menu.png");
+	text-align: center;
+	border-bottom: 5px solid #4c4d4e;
+    border-top: 5px solid #556167;
+	background-position: center;
+	/*position: fixed;*/
+	width: 100%;
+
+
+
+}
+
+.menu img{
+
+	width: 58px;
+	height: 58px;
+	position: fixed;
+	top: 3;
+	right: 0;
+	transition:all 1s ease-in-out;
+}
+
+.menu img:hover{
+	transform: scale(1.5);
+
+}
+/* Fin del menu*/
+
+body{
+	background-color: #363a3c;
+
+}/* PAGINA PRINCIPAL------------------*/
+
+.bannerPrincipal{
+
+	background-image: url("../images/bannerprincipal4.png");
+	background-repeat:no-repeat;
+	height:370px; 
+	border-bottom: 25px solid #242a2d;
+	background-position: 50% 85%;
+	background-size: cover;
+	/*box-sizing:border-box;*/
+
+
+}
+
+.primeraSeccion{
+
+	background-image: url("../images/fondoSeccion1.png");
+	background-repeat: no-repeat;
+	height: 340px;
+	background-position: 100% 35%;
+	background-size: cover;
+	border-bottom: 55px solid #242a2d;
+
+}
+
+.primeraSeccion h1{
+	color:white;
+	font-family: 'Days One', sans-serif;
+	text-align: left;
+	line-height: 2;
+	font-size: 50px;
+	border-top: 1px solid #4c4d4e;
+
+}
+.primeraSeccion h2{
+
+	text-align: left;
+	line-height: 1.5;
+	font-size: 26px;
+	color: white;
+	width: 60%;
+	font-family: 'Days One', sans-serif;
+}
+.primeraSeccion a{
+	font-family: 'Days One', sans-serif;
+	text-decoration: none;
+	color: #ff2c2c;
+	font-size: 22;
+	border-bottom: 1px solid #4c4d4e;
+}
+
+.segundaSeccion{
+
+	background-image: url("../images/fondoSeccion2.png");
+	background-repeat: no-repeat;
+	height: 340px;
+	background-position: 100% 18%;
+	background-size: cover;
+	border-bottom: 55px solid #242a2d;
+
+}
+.segundaSeccion h1{
+	color:white;
+	font-family: 'Days One', sans-serif;
+	text-align: left;
+	line-height: 2;
+	font-size: 50px;
+	border-top: 1px solid #4c4d4e;
+
+
+}
+.segundaSeccion h2{
+
+	text-align: left;
+	line-height: 1.5;
+	font-size: 26px;
+	color: white;
+	width: 50%;
+	font-family: 'Days One', sans-serif;
+}
+.segundaSeccion a{
+	font-family: 'Days One', sans-serif;
+	text-decoration: none;
+	color: #ff2c2c;
+	font-size: 22;
+	border-bottom: 1px solid #4c4d4e;
+}
+.terceraSeccion{
+
+	background-image: url("../images/fondoSeccion3.png");
+	background-repeat: no-repeat;
+	height: 340px;
+	background-position: 100% 28%;
+	background-size: cover;
+	border-bottom: 85px solid #242a2d;
+
+}
+.terceraSeccion h1{
+	color:white;
+	font-family: 'Days One', sans-serif;
+	text-align: left;
+	line-height: 2;
+	font-size: 50px;
+	border-top: 1px solid #4c4d4e;
+
+
+}
+.terceraSeccion h2{
+
+	text-align: left;
+	line-height: 1.5;
+	font-size: 26px;
+	color: white;
+	width: 50%;
+	font-family: 'Days One', sans-serif;
+}
+.terceraSeccion a{
+	font-family: 'Days One', sans-serif;
+	text-decoration: none;
+	color: #ff2c2c;
+	font-size: 22;
+	border-bottom: 1px solid #4c4d4e;
+}
+
+.imagenesInline{
+	background-color: #242a2d;
+	
+}
+.imagenesInline img{
+	display: inline;
+	margin: 15px;
+	border: 3px solid gray;
+	padding: 5px;
+}
+
+
+
+
+ /* FIN PAGINA PRINCIPAL----------*/
+
+.TOP10 {
+  height: 3800px;
+  border-bottom: 16px solid white;
+}
+
+.TOP10 h1 {
+  text-align: center;
+  font-size: 46px;
+  font-family: 'Days One', sans-serif;
+  color: blue;
+  line-height: 2;
+}
+/*# sourceMappingURL=estilos.css.map */
