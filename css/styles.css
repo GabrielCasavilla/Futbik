@@ -76,6 +76,22 @@ transition:all 1s ease-in-out;
 
 
 }
+.imagenlogito{
+
+	width: 70px;
+	height: 70px;
+	transition:all 1s ease-in-out;
+
+}
+
+.imagenlogito:hover{
+	transform: scale(1.5);
+}
+
+.container{
+	font-size: 18px;
+	
+}
 .menu ul li:hover{
 	background: rgb(76, 97, 100);
 	background: radial-gradient(circle, rgb(73, 101, 105) 0%, rgba(255,255,255,1) 51%, rgba(215,215,215,1) 100%);
