@@ -21,7 +21,7 @@
 	padding-right: 23px;
 	background: rgb(152,152,152);
 	background: radial-gradient(circle, rgba(152,152,152,1) 0%, rgba(255,255,255,1) 51%, rgba(215,215,215,1) 100%);
-	border: 4px solid black;
+	border: 1.2px solid black;
 	border-radius: 13px;
 	padding-top: 4px;
 	padding-bottom: 4px;
@@ -388,7 +388,6 @@ body{
 	height: 200px;
 	width: 200px;
 }
-
 /*FIN FLEX*/
 .bannerNoticias{
 
@@ -472,10 +471,26 @@ body{
 }
 .contenidoCuriosidades ul li:hover{
 
-	transform:scale(1.2);
+	transform:scale(1.05);
 	background: rgb(255,12,12);
 background: radial-gradient(circle, rgba(255,12,12,1) 0%, rgba(255,79,79,1) 51%, rgba(186,8,8,1) 100%);
 
+}
+.fulbo{
+	height: 10em;
+	width: 10em;
+	margin-left: 38em;
+	margin-top: 2em;
+	transition: all 1s;
+}
+.fulbo:hover{
+	transform: scale(1.3);
+}
+@media screen and (max-width: 800px) {
+	.fulbo{
+		margin-left: 8.6em;
+	}
+	
 }
  /* FIN Curiosidades---------------*/
 
@@ -637,27 +652,32 @@ font-family: verdana;
 	font-family: verdana;
 	font-size: 22px;
 	line-height: 4;
-	padding: 20px;
-	margin: 30px;
+	padding: 3px;
+	margin: 3px;
 	text-align: center;
 
 }
 .formulario label{
-	line-height: 1;
+	line-height: 0.5;
 }
 .formulario input, select{
-	line-height: 2;
+	line-height: 1;
 	font-size: 20px;
 	
 }
 .formulario input:hover{
 	background: rgb(255,255,255);
 	background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(218,255,248,1) 51%, rgba(149,163,255,1) 100%);
-	transform:scale(1.1);
+	transform:scale(1.05);
+
+	
 
 
 
+}
 
+#inputTexto{
+	height: 60px;
 }
 /*FIN Formilario---------------------------*/
 
@@ -697,9 +717,21 @@ table{
 	text-align: center;
 	
 }
-
+.productosTo{
+	background-color: #242a2d;
+}
 .productosDes{
 	display:flex;
+	background-color: gray;
+	padding: 10px;
+
+	
+}
+@media screen and (max-width: 800px) {
+	.productosDes{
+		display: block;
+		background-color: black;
+	}
 	
 }
 .card{
