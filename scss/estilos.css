@@ -1,263 +1,507 @@
-.fondoGris{
-	background: rgb(142,142,142);
-	background: linear-gradient(0deg, rgba(142,142,142,1) 0%, rgba(79,79,79,1) 100%);
-}
-.botones{
-	font-size: 20px;
-	text-align: center;
-	word-spacing: 2;
-	list-style: none;
-	font-family: verdana;
-	display: inline;
-	padding-left: 18px;
-	padding-right: 23px;
-	background: rgb(152,152,152);
-	background: radial-gradient(circle, rgba(152,152,152,1) 0%, rgba(255,255,255,1) 51%, rgba(215,215,215,1) 100%);
-	border: 4px solid black;
-	border-radius: 13px;
-	padding-top: 4px;
-	padding-bottom: 4px;
-	text-decoration: none;
-	color: black;
-
+.TOP10 {
+  height: 3800px;
+  border-bottom: 16px solid white;
 }
 
-.titBlanco{
-	color: white;
-    font-family: 'Days One', sans-serif;
-    text-align: left;
-    line-height: 2;
-    font-size: 28px;
-}
-.tBlanco{
-	color: white;
-    font-family: 'Days One', sans-serif;
-    text-align: left;
-    line-height: 2;
-    font-size: 18px;
-}
-.titNegro{
-	color: black;
-    font-family: 'Days One', sans-serif;
-    text-align: left;
-    line-height: 2;
-    font-size: 28px;
+.TOP10 h1 {
+  text-align: center;
+  font-size: 46px;
+  font-family: 'Days One', sans-serif;
+  color: blue;
+  line-height: 2;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
 
-/*FIN PALETAS----------------*/
-/*Parte del Menu-----------------*/
+h2 {
+  color: blue;
+}
+
+.fondoGris {
+  background: #8e8e8e;
+  background: -webkit-gradient(linear, left bottom, left top, from(#8e8e8e), to(#4f4f4f));
+  background: linear-gradient(0deg, #8e8e8e 0%, #4f4f4f 100%);
+}
+
+.botones {
+  font-size: 20px;
+  text-align: center;
+  word-spacing: 2;
+  list-style: none;
+  font-family: verdana;
+  display: inline;
+  padding-left: 18px;
+  padding-right: 23px;
+  background: #989898;
+  background: radial-gradient(circle, #989898 0%, white 51%, #d7d7d7 100%);
+  border: 1.2px solid black;
+  border-radius: 13px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  text-decoration: none;
+  color: black;
+}
+
+.titBlanco {
+  color: white;
+  font-family: 'Days One', sans-serif;
+  text-align: left;
+  line-height: 2;
+  font-size: 28px;
+}
+
+.tBlanco {
+  color: white;
+  font-family: 'Days One', sans-serif;
+  text-align: left;
+  line-height: 2;
+  font-size: 18px;
+}
+
+.titNegro {
+  color: black;
+  font-family: 'Days One', sans-serif;
+  text-align: left;
+  line-height: 2;
+  font-size: 28px;
+}
+
+.pBanner {
+  font-family: 'Days One', sans-serif;
+  text-align: center;
+  background-color: #242a2d;
+  margin-bottom: 0;
+  font-size: 28px;
+  color: white;
+  border-bottom: 8px solid #1f1f1f;
+}
+
+.menu {
+  position: center;
+  height: 70px;
+  background-image: url("../images/menu.png");
+  text-align: center;
+  border-bottom: 5px solid #4c4d4e;
+  border-top: 5px solid #556167;
+  background-position: center;
+  width: 100%;
+}
+
 .menu ul li {
-
-color: red;
-font-size: 20px;
-text-align: center;
-word-spacing: 2;
-list-style: none;
-font-family: verdana;
-display: inline;
-padding-left: 18px;
-padding-right: 23px;
-background: rgb(152,152,152);
-background: radial-gradient(circle, rgba(152,152,152,1) 0%, rgba(255,255,255,1) 51%, rgba(215,215,215,1) 100%);
-border: 4px solid black;
-border-radius: 13px;
-padding-top: 4px;
-padding-bottom: 4px;
-transition:all 1s ease-in-out;
-
-
-}
-.menu ul li:hover{
-	background: rgb(0,219,255);
-	background: radial-gradient(circle, rgba(0,219,255,1) 0%, rgba(255,255,255,1) 51%, rgba(215,215,215,1) 100%);
-
-
+  color: red;
+  font-size: 24px;
+  text-align: center;
+  word-spacing: 2;
+  list-style: none;
+  font-family: verdana;
+  display: inline;
+  padding-left: 18px;
+  padding-right: 18px;
+  background: #989898;
+  background: radial-gradient(circle, #989898 0%, white 51%, #d7d7d7 100%);
+  border: 4px solid black;
+  border-radius: 13px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
 }
 
-.menu a{
-	text-decoration: none;
-	line-height: 2.5;
-	color: black;
-	font-family: 'Farro', sans-serif;
-	font-size: 25px;
+.menu ul li:hover {
+  background: #4c6164;
+  background: radial-gradient(circle, #496569 0%, white 51%, #d7d7d7 100%);
 }
 
-.menu{
-
-	position: center;
-	height: 60px;
-	background-image: url("../images/menu.png");
-	text-align: center;
-	border-bottom: 5px solid #4c4d4e;
-    border-top: 5px solid #556167;
-	background-position: center;
-	/*position: fixed;*/
-	width: 100%;
-
-
-
+.menu a {
+  text-decoration: none;
+  line-height: 2.5;
+  color: black;
+  font-family: 'Farro', sans-serif;
+  font-size: 25px;
 }
 
-.menu img{
-
-	width: 58px;
-	height: 58px;
-	position: fixed;
-	top: 3;
-	right: 0;
-	transition:all 1s ease-in-out;
+.menu img {
+  width: 58px;
+  height: 58px;
+  position: fixed;
+  top: 3;
+  right: 0;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
 }
 
-.menu img:hover{
-	transform: scale(1.5);
-
-}
-/* Fin del menu*/
-
-body{
-	background-color: #363a3c;
-
-}/* PAGINA PRINCIPAL------------------*/
-
-.bannerPrincipal{
-
-	background-image: url("../images/bannerprincipal4.png");
-	background-repeat:no-repeat;
-	height:370px; 
-	border-bottom: 25px solid #242a2d;
-	background-position: 50% 85%;
-	background-size: cover;
-	/*box-sizing:border-box;*/
-
-
+.menu img:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
 }
 
-.primeraSeccion{
-
-	background-image: url("../images/fondoSeccion1.png");
-	background-repeat: no-repeat;
-	height: 340px;
-	background-position: 100% 35%;
-	background-size: cover;
-	border-bottom: 55px solid #242a2d;
-
+.imagenlogito {
+  width: 70px;
+  height: 70px;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
 }
 
-.primeraSeccion h1{
-	color:white;
-	font-family: 'Days One', sans-serif;
-	text-align: left;
-	line-height: 2;
-	font-size: 50px;
-	border-top: 1px solid #4c4d4e;
-
-}
-.primeraSeccion h2{
-
-	text-align: left;
-	line-height: 1.5;
-	font-size: 26px;
-	color: white;
-	width: 60%;
-	font-family: 'Days One', sans-serif;
-}
-.primeraSeccion a{
-	font-family: 'Days One', sans-serif;
-	text-decoration: none;
-	color: #ff2c2c;
-	font-size: 22;
-	border-bottom: 1px solid #4c4d4e;
+.imagenlogito:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
 }
 
-.segundaSeccion{
-
-	background-image: url("../images/fondoSeccion2.png");
-	background-repeat: no-repeat;
-	height: 340px;
-	background-position: 100% 18%;
-	background-size: cover;
-	border-bottom: 55px solid #242a2d;
-
-}
-.segundaSeccion h1{
-	color:white;
-	font-family: 'Days One', sans-serif;
-	text-align: left;
-	line-height: 2;
-	font-size: 50px;
-	border-top: 1px solid #4c4d4e;
-
-
-}
-.segundaSeccion h2{
-
-	text-align: left;
-	line-height: 1.5;
-	font-size: 26px;
-	color: white;
-	width: 50%;
-	font-family: 'Days One', sans-serif;
-}
-.segundaSeccion a{
-	font-family: 'Days One', sans-serif;
-	text-decoration: none;
-	color: #ff2c2c;
-	font-size: 22;
-	border-bottom: 1px solid #4c4d4e;
-}
-.terceraSeccion{
-
-	background-image: url("../images/fondoSeccion3.png");
-	background-repeat: no-repeat;
-	height: 340px;
-	background-position: 100% 28%;
-	background-size: cover;
-	border-bottom: 85px solid #242a2d;
-
-}
-.terceraSeccion h1{
-	color:white;
-	font-family: 'Days One', sans-serif;
-	text-align: left;
-	line-height: 2;
-	font-size: 50px;
-	border-top: 1px solid #4c4d4e;
-
-
-}
-.terceraSeccion h2{
-
-	text-align: left;
-	line-height: 1.5;
-	font-size: 26px;
-	color: white;
-	width: 50%;
-	font-family: 'Days One', sans-serif;
-}
-.terceraSeccion a{
-	font-family: 'Days One', sans-serif;
-	text-decoration: none;
-	color: #ff2c2c;
-	font-size: 22;
-	border-bottom: 1px solid #4c4d4e;
+.container {
+  font-size: 18px;
 }
 
-.imagenesInline{
-	background-color: #242a2d;
-	
-}
-.imagenesInline img{
-	display: inline;
-	margin: 15px;
-	border: 3px solid gray;
-	padding: 5px;
+body {
+  background-color: #242a2d;
 }
 
+.carousel-inner {
+  height: 28em;
+  border-bottom: 2em solid #242a2d;
+}
 
+.navbar {
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
 
+.navbar:hover {
+  background-color: rgba(22, 22, 22, 0.336);
+}
 
- /* FIN PAGINA PRINCIPAL----------*/
+.primeraSeccion {
+  background-image: url("../images/fondoSeccion1.png");
+  background-repeat: no-repeat;
+  height: 340px;
+  background-position: 100% 35%;
+  background-size: cover;
+  border-bottom: 55px solid #242a2d;
+}
+
+.primeraSeccion h1 {
+  color: white;
+  font-family: 'Days One', sans-serif;
+  text-align: left;
+  line-height: 2;
+  font-size: 50px;
+  border-top: 1px solid #4c4d4e;
+}
+
+.primeraSeccion h2 {
+  text-align: left;
+  line-height: 1.5;
+  font-size: 26px;
+  color: white;
+  width: 60%;
+  font-family: 'Days One', sans-serif;
+}
+
+.primeraSeccion a {
+  font-family: 'Days One', sans-serif;
+  text-decoration: none;
+  color: #ff2c2c;
+  font-size: 22;
+  border-bottom: 1px solid #4c4d4e;
+}
+
+.segundaSeccion {
+  background-image: url("../images/fondoSeccion2.png");
+  background-repeat: no-repeat;
+  height: 340px;
+  background-position: 100% 18%;
+  background-size: cover;
+  border-bottom: 55px solid #242a2d;
+}
+
+.segundaSeccion h1 {
+  color: white;
+  font-family: 'Days One', sans-serif;
+  text-align: left;
+  line-height: 2;
+  font-size: 50px;
+  border-top: 1px solid #4c4d4e;
+}
+
+.segundaSeccion h2 {
+  text-align: left;
+  line-height: 1.5;
+  font-size: 26px;
+  color: white;
+  width: 50%;
+  font-family: 'Days One', sans-serif;
+}
+
+.segundaSeccion a {
+  font-family: 'Days One', sans-serif;
+  text-decoration: none;
+  color: #ff2c2c;
+  font-size: 22;
+  border-bottom: 1px solid #4c4d4e;
+}
+
+.terceraSeccion {
+  background-image: url("../images/fondoSeccion3.png");
+  background-repeat: no-repeat;
+  height: 340px;
+  background-position: 100% 28%;
+  background-size: cover;
+  border-bottom: 85px solid #242a2d;
+}
+
+.terceraSeccion h1 {
+  color: white;
+  font-family: 'Days One', sans-serif;
+  text-align: left;
+  line-height: 2;
+  font-size: 50px;
+  border-top: 1px solid #4c4d4e;
+}
+
+.terceraSeccion h2 {
+  text-align: left;
+  line-height: 1.5;
+  font-size: 26px;
+  color: white;
+  width: 50%;
+  font-family: 'Days One', sans-serif;
+}
+
+.terceraSeccion a {
+  font-family: 'Days One', sans-serif;
+  text-decoration: none;
+  color: #ff2c2c;
+  font-size: 22;
+  border-bottom: 1px solid #4c4d4e;
+}
+
+.imagenesInline {
+  background-color: #242a2d;
+}
+
+.imagenesInline img {
+  display: inline;
+  margin: 15px;
+  border: 3px solid gray;
+  padding: 5px;
+}
+
+.noticia1 {
+  text-align: center;
+  border-bottom: 2em solid #242a2d;
+  background-color: #484848;
+}
+
+.noticia1 p {
+  text-align: center;
+  font-size: 2em;
+}
+
+.noticia1 h1 {
+  text-align: center;
+  font-size: 39px;
+  font-family: 'Days One', sans-serif;
+  border-bottom: 1px solid #4c4d4e;
+  color: white;
+  line-height: 3;
+}
+
+.noticia1 h2 {
+  text-align: center;
+  font-size: 26px;
+  font-family: 'Days One', sans-serif;
+  color: white;
+  line-height: 1.5;
+}
+
+.noticia2 {
+  text-align: center;
+  font-size: 2em;
+  background-color: #790404;
+  border-bottom: 2em solid #242a2d;
+}
+
+.noticia2 p {
+  text-align: center;
+}
+
+.bannerNoticias {
+  background-image: url("../images/bannerprincipal4.png");
+  background-repeat: no-repeat;
+  height: 340px;
+  background-position: 100% 80%;
+  background-size: cover;
+  border-bottom: 55px solid #242a2d;
+}
+
+.imagenesNoticias {
+  text-align: center;
+  line-height: 2;
+}
+
+.imagenesNoticias img {
+  border: 2px solid black;
+  border-radius: 3px;
+}
+
+.videoMessi {
+  border-width: 3px;
+  border-color: #b0eeff;
+}
+
+.bannerCuriosidades {
+  background-image: url("../images/bannerprincipal4.png");
+  background-repeat: no-repeat;
+  height: 340px;
+  background-position: 100% 80%;
+  background-size: cover;
+  border-bottom: 55px solid #242a2d;
+}
+
+.contenidoCuriosidades h1 {
+  text-align: center;
+  font-size: 36px;
+  font-family: 'Days One', sans-serif;
+  color: white;
+  line-height: 2.5;
+  border-bottom: 4px solid #242a2d;
+  margin-bottom: 20px;
+}
+
+.contenidoCuriosidades ul li {
+  text-align: center;
+  font-size: 26px;
+  font-family: 'Days One', sans-serif;
+  color: white;
+  line-height: 2;
+  list-style-position: inside;
+  border-bottom: 6px solid black;
+  margin: 10px;
+  padding: 45px;
+}
+
+.contenidoCuriosidades ul li:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  background: #ff0c0c;
+  background: radial-gradient(circle, #ff0c0c 0%, #ff4f4f 51%, #ba0808 100%);
+}
+
+.fulbo {
+  height: 10em;
+  width: 10em;
+  margin-left: 38em;
+  margin-top: 2em;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.fulbo:hover {
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+}
+
+.seccionBarcelona {
+  background-color: #720101;
+  height: 500px;
+  border-bottom: 16px solid #242a2d;
+}
+
+.seccionBarcelona ul li {
+  list-style: none;
+  text-align: center;
+  font-size: 26px;
+  font-family: 'Days One', sans-serif;
+  color: yellow;
+  line-height: 2;
+}
+
+.barcelona {
+  padding: 30px;
+  margin: auto;
+  margin-top: 40px;
+  display: block;
+  background-color: #920000;
+  height: 220px;
+  width: 190px;
+  border: 1px solid #242a2d;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.barcelona:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  background-color: #ff0c0c;
+  background: radial-gradient(circle, #ff0c0c 0%, #ff4f4f 51%, #ba0808 100%);
+}
+
+.barcelona h2 {
+  text-align: center;
+  font-size: 26px;
+  font-family: 'Days One', sans-serif;
+  color: yellow;
+  line-height: 1.5;
+}
+
+.barcelona img {
+  margin: auto;
+  display: block;
+  height: 80px;
+  width: 80px;
+}
+
+.seccionrealMadrid {
+  background-color: white;
+  height: 500px;
+  border-bottom: 16px solid #242a2d;
+}
+
+.seccionrealMadrid ul li {
+  list-style: none;
+  text-align: center;
+  font-size: 26px;
+  font-family: 'Days One', sans-serif;
+  color: blue;
+  line-height: 2;
+}
+
+.realMadrid {
+  padding: 30px;
+  margin: auto;
+  display: block;
+  background-color: #3f3fff;
+  height: 220px;
+  width: 190px;
+  border: 1px solid #242a2d;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.realMadrid:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  background: #8d86ff;
+  background: -webkit-gradient(linear, left top, right top, from(#8d86ff), color-stop(35%, #3939ff), to(#00d4ff));
+  background: linear-gradient(90deg, #8d86ff 0%, #3939ff 35%, #00d4ff 100%);
+}
+
+.realMadrid h2 {
+  text-align: center;
+  font-size: 26px;
+  font-family: 'Days One', sans-serif;
+  color: white;
+  line-height: 1;
+}
+
+.realMadrid img {
+  margin: auto;
+  display: block;
+  height: 100px;
+  width: 80px;
+}
 
 .TOP10 {
   height: 3800px;
@@ -270,5 +514,176 @@ body{
   font-family: 'Days One', sans-serif;
   color: blue;
   line-height: 2;
+}
+
+.TOP10 h2 {
+  text-align: center;
+  font-size: 26px;
+  font-family: 'Days One', sans-serif;
+  color: black;
+  line-height: 1.5;
+}
+
+.primerTop {
+  margin: auto;
+  display: block;
+  background-color: #efefef;
+  height: 3620px;
+  width: 490px;
+  border: 5px solid #0000ff;
+}
+
+.primerTop ol li {
+  list-style: decimal inside;
+  text-align: center;
+  font-size: 26px;
+  font-family: 'Days One', sans-serif;
+  color: blue;
+  line-height: 2;
+}
+
+.primerTop img {
+  width: 480px;
+  height: 300px;
+  margin: auto;
+  display: block;
+}
+
+.primerTop img:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+thead {
+  color: #020200;
+}
+
+h2 {
+  font-family: verdana;
+}
+
+h3 {
+  text-align: center;
+  font-family: verdana;
+}
+
+.formulario {
+  font-family: verdana;
+  font-size: 22px;
+  line-height: 4;
+  padding: 3px;
+  margin: 3px;
+  text-align: center;
+}
+
+.formulario label {
+  line-height: 0.5;
+}
+
+.formulario input {
+  line-height: 1;
+  font-size: 20px;
+}
+
+.formulario input:hover {
+  background: white;
+  background: radial-gradient(circle, white 0%, #dafff8 51%, #95a3ff 100%);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+select {
+  line-height: 1;
+  font-size: 20px;
+}
+
+#inputTexto {
+  height: 60px;
+}
+
+.Tabla {
+  margin: auto;
+  display: block;
+  background-color: #efefef;
+  height: 1020px;
+  width: 1000px;
+  border: 5px solid #0000ff;
+  margin-top: 100px;
+}
+
+.Tabla h1 {
+  font-family: verdana;
+  font-size: 28px;
+  text-align: center;
+}
+
+.camisetas {
+  width: 900px;
+  height: 500px;
+  background-color: white;
+  padding-top: 80px;
+}
+
+table {
+  color: blue;
+  text-align: center;
+  word-spacing: 3;
+  font-size: 28px;
+  font-family: verdana;
+  margin-top: 30px;
+}
+
+.productosTo {
+  background-color: #242a2d;
+}
+
+.productosDes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: gray;
+  padding: 10px;
+}
+
+.productosDes .card .btn-primary {
+  background-color: #fd3535;
+}
+
+.card {
+  margin-left: 10px;
+  margin-bottom: 8px;
+  margin-right: 38px;
+}
+
+@media screen and (max-width: 800px) {
+  .carousel-inner {
+    height: 14em;
+    border-top: 10px;
+  }
+  .noticia1 {
+    text-align: left;
+    width: 26em;
+    border-bottom: 2em solid #242a2d;
+  }
+  .noticia1 img {
+    width: 26em;
+    height: 16em;
+  }
+  .noticia2 {
+    text-align: left;
+    width: 14em;
+    border-bottom: 2em solid #242a2d;
+  }
+  .noticia2 img {
+    width: 10em;
+    height: 6em;
+  }
+  .fulbo {
+    margin-left: 8.6em;
+  }
+  .productosDes {
+    display: block;
+    background-color: black;
+  }
 }
 /*# sourceMappingURL=estilos.css.map */

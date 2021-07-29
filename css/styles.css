@@ -166,6 +166,13 @@ body{
 	}
 	
 }
+.navbar{
+	transition:all 0.2s ease-in-out;
+}
+
+.navbar:hover{
+	background-color: rgba(22, 22, 22, 0.336);
+}
 
 
 .primeraSeccion{
@@ -308,27 +315,29 @@ body{
 }
 /* ARRANCA mobile */
 @media screen and (max-width: 800px) {
-.noticia1{
-	text-align: left;
-	width: 26em;
-	border-bottom: 2em solid rgb(36, 42, 45);
-}
-.noticia1 img{
+	.noticia1{
+		text-align: left;
 		width: 26em;
-		height: 16em;
-}
+		border-bottom: 2em solid rgb(36, 42, 45);
+	}
+	.noticia1 img{
+			width: 26em;
+			height: 16em;
+	}
 
-.noticia2{
-	text-align: left;
-	width: 14em;
-	border-bottom: 2em solid rgb(36, 42, 45);
+	.noticia2{
+		text-align: left;
+		width: 14em;
+		border-bottom: 2em solid rgb(36, 42, 45);
 
 
-}
-.noticia2 img{
-	width: 10em;
-	height: 6em;
-}
+	}
+	.noticia2 img{
+		width: 10em;
+		height: 6em;
+	}
+
+
 }
 /* fin mobile --------*/
 .noticia2{
@@ -340,6 +349,7 @@ body{
 .noticia2 p{
 	text-align: center;
 }
+
 
 
 /*
@@ -808,3 +818,4 @@ table{
 .productosDes .card .btn-primary{
 	background-color: #fd3535;
 }
+
