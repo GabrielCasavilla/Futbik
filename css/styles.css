@@ -51,7 +51,15 @@
     line-height: 2;
     font-size: 28px;
 }
-
+.pBanner{
+	font-family: 'Days One', sans-serif;
+	text-align: center;
+	background-color: #242a2d;
+	margin-bottom: 0;
+	font-size: 28px;
+	color: white;
+	border-bottom: 8px solid rgb(31, 31, 31);
+}
 
 /*FIN PALETAS----------------*/
 /*Parte del Menu-----------------*/
@@ -794,8 +802,9 @@ table{
 	margin-left: 10px;
 	margin-bottom: 8px;
 	margin-right: 38px;
+
 }
 
 .productosDes .card .btn-primary{
-	background-color: #170098;
+	background-color: #fd3535;
 }
