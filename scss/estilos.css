@@ -371,6 +371,7 @@ body {
 }
 
 .contenidoCuriosidades ul li {
+
   text-align: center;
   font-size: 26px;
   font-family: 'Days One', sans-serif;
@@ -381,6 +382,10 @@ body {
   margin: 10px;
   padding: 45px;
 }
+.noBtrap{
+  padding-left: 0rem;
+} 
+
 
 .contenidoCuriosidades ul li:hover {
   -webkit-transform: scale(1.05);
