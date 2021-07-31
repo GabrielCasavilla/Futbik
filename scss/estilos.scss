@@ -339,7 +339,7 @@ body {
 }
 .seccionBarcelona {
 	background-color: rgb(114, 1, 1);
-	height: 500px;
+	height: 550px;
 	border-bottom: 16px solid #242a2d;
 	ul {
 		li {
@@ -373,6 +373,7 @@ body {
 		font-family: 'Days One', sans-serif;
 		color: yellow;
 		line-height: 1.5;
+        
 	}
 	img {
 		margin: auto;
@@ -380,10 +381,19 @@ body {
 		height: 80px;
 		width: 80px;
 	}
+
+}
+.trofeos{
+    height: 70px;
+    width: 70px;
+    
+}
+.trofeos:hover{
+    transform: scale(1.1);
 }
 .seccionrealMadrid {
 	background-color: white;
-	height: 500px;
+	height: 550px;
 	border-bottom: 16px solid #242a2d;
 	ul {
 		li {
@@ -551,6 +561,10 @@ table {
 	margin-left: 10px;
 	margin-bottom: 8px;
 	margin-right: 38px;
+}
+.card:hover{
+    border: 6px solid rgba(28, 6, 105, 0.521);
+    border-radius: 15px;
 }
 @media screen and (max-width: 800px) {
 	.carousel-inner {
