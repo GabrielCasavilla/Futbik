@@ -662,16 +662,14 @@ table {
   }
   .noticia1 {
     text-align: left;
-    width: 26em;
     border-bottom: 2em solid #242a2d;
   }
   .noticia1 img {
-    width: 26em;
+    width: 22em;
     height: 16em;
   }
   .noticia2 {
     text-align: left;
-    width: 14em;
     border-bottom: 2em solid #242a2d;
   }
   .noticia2 img {
