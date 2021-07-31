@@ -509,6 +509,28 @@ h3 {
 		}
 	}
 }
+.redes{
+    font-family: verdana;
+    text-align: center;
+    background-color: #4f4f4f;
+    height: 550px;
+    h2{
+        font-size: 32px;
+        color: white;
+        
+    }
+    .redesLogo{
+        margin: 8px;
+        height: 100px;
+        width: 100px;
+        
+    }
+
+}
+.imgFut{
+    background-color: #4f4f4f;
+    text-align: center;
+}
 select {
 	line-height: 1;
 	font-size: 20px;
@@ -597,3 +619,8 @@ table {
 		background-color: black;
 	}
 }
+
+.noBtrap{
+    padding-left: 0rem;
+  } 
+  

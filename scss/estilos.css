@@ -371,7 +371,6 @@ body {
 }
 
 .contenidoCuriosidades ul li {
-
   text-align: center;
   font-size: 26px;
   font-family: 'Days One', sans-serif;
@@ -382,10 +381,6 @@ body {
   margin: 10px;
   padding: 45px;
 }
-.noBtrap{
-  padding-left: 0rem;
-} 
-
 
 .contenidoCuriosidades ul li:hover {
   -webkit-transform: scale(1.05);
@@ -607,6 +602,29 @@ h3 {
           transform: scale(1.05);
 }
 
+.redes {
+  font-family: verdana;
+  text-align: center;
+  background-color: #4f4f4f;
+  height: 550px;
+}
+
+.redes h2 {
+  font-size: 32px;
+  color: white;
+}
+
+.redes .redesLogo {
+  margin: 8px;
+  height: 100px;
+  width: 100px;
+}
+
+.imgFut {
+  background-color: #4f4f4f;
+  text-align: center;
+}
+
 select {
   line-height: 1;
   font-size: 20px;
@@ -703,5 +721,9 @@ table {
     display: block;
     background-color: black;
   }
+}
+
+.noBtrap {
+  padding-left: 0rem;
 }
 /*# sourceMappingURL=estilos.css.map */
