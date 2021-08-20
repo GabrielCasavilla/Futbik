@@ -757,6 +757,15 @@ table {
     line-height: 5px;
     margin-top: 50px;
   }
+  .imagenesInline img {
+    margin: 0;
+    width: 100px;
+    height: 100px;
+  }
+  .imgFut {
+    width: 180px;
+    height: 85px;
+  }
 }
 
 .noBtrap {
