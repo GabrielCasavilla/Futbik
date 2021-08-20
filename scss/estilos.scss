@@ -590,9 +590,25 @@ table {
 }
 @media screen and (max-width: 800px) {
 	.carousel-inner {
-		height: 10em;
+		height: 9em;
 		border-top: 10px;
 	}
+    .primeraSeccion{
+        h1{
+            font-size: 16px;
+        }
+        h2{
+            font-size: 14px;
+        }
+    }
+    .segundaSeccion, .terceraSeccion{
+        h1{
+            font-size: 16px;
+        }
+        h2{
+            font-size: 14px;
+        }
+    }
 	.noticia1 {
 		text-align: left;
 
@@ -624,6 +640,25 @@ table {
 		display: block;
 		background-color: black;
 	}
+
+    .seccionBarcelona{
+        height: 1000px;
+        ul li{
+            text-align: left;
+            height: 100px;
+            line-height: 5px;
+            margin-top: 50px;
+        }
+    }
+    .seccionrealMadrid{
+        height: 1000px;
+        ul li{
+            text-align: left;
+            height: 100px;
+            line-height: 5px;
+            margin-top: 50px;
+        }
+    }
 }
 
 .noBtrap{
