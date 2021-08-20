@@ -590,7 +590,7 @@ table {
 }
 @media screen and (max-width: 800px) {
 	.carousel-inner {
-		height: 14em;
+		height: 10em;
 		border-top: 10px;
 	}
 	.noticia1 {
@@ -598,17 +598,23 @@ table {
 
 		border-bottom: 2em solid rgb(36, 42, 45);
 		img {
-			width: 22em;
-			height: 16em;
+			width: 170px;
+			height: 100px;
 		}
+        p{
+            font-size: 10px;
+        }
+        h3{
+            font-size: 10px;
+        }
 	}
 	.noticia2 {
 		text-align: left;
 
 		border-bottom: 2em solid rgb(36, 42, 45);
 		img {
-			width: 10em;
-			height: 6em;
+			width: 120px;
+			height: 100px;
 		}
 	}
 	.fulbo {
@@ -622,5 +628,4 @@ table {
 
 .noBtrap{
     padding-left: 0rem;
-  } 
-  
+} 
